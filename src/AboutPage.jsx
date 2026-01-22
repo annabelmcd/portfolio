@@ -12,11 +12,15 @@ export function AboutPage(props){
                 <div className="blurb-box">
                     <p className="blurb-text">blurb</p>
                 </div>
-                <div className="about-buttons">
+                <div className="about-buttons-small">
                     <div className="about-section-button">Resume</div>
                     <div className="break"></div>
                     <div className="about-section-button">Portfolio</div>
                 </div>
+            </div>
+            <div className="about-buttons-large">
+                <div className="about-section-button resume">Resume</div>
+                <div className="about-section-button portfolio">Portfolio</div>
             </div>
 
         </div>

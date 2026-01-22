@@ -60,8 +60,12 @@
    margin: 0;
 }
 
-.about-buttons {
+.about-buttons-small {
     margin: 25px 0;
+}
+
+.about-buttons-large {
+    display: none;
 }
 
 .about-section-button {
@@ -135,13 +139,101 @@
         width: 60%;
         height: 250px;
         margin: 25px 0;
+        border-radius: 8px;
     }
 
-    .about-buttons .break {
+    .about-buttons-small {
         display: none;
     }
 
-    .about-buttons {
-        margin: 25px 0;
+    .about-buttons-large {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 25px;
+        font-weight: 500;
     }
+
+    .about-section-button.resume {
+        margin-right: 30px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .navbar h1 {
+        font-size: 4.5rem;
+    }
+
+    .navbar .buttons {
+        margin-right: 55px;
+    }
+
+    .navbar .button {
+        font-size: 1.5rem;
+        padding: 4px 30px;
+        border-radius: 8px;
+    }
+
+    .about-section {
+       align-items: center;
+    }
+
+    .profilepic {
+        max-height: 300px;
+    }
+
+    .about-section .blurb-box {
+        width: 65%;
+        height: 300px;
+        border-radius: 5px;
+    }
+
+    .about-buttons-large {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 130px;
+    }
+
+    .about-section-button.resume {
+        margin-right: 30px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    .navbar h1 {
+        font-size: 5rem;
+    }
+
+    .navbar .buttons {
+        margin-right: 80px;
+    }
+
+    .navbar .button {
+        font-size: 2rem;
+    }
+
+    .profilepic {
+        margin-left: 20px;
+        max-height: 400px;
+    }
+
+    .about-section .blurb-box {
+        height: 200x;
+        width: 60%;
+        margin-right: 50px;
+    }
+
+    .about-buttons-large {
+        font-size: 2rem;
+        margin-right: 270px;
+    }
+
+    .about-section-button.resume {
+        margin-right: 50px;
+    }
+
 }
