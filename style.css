@@ -190,7 +190,7 @@ body {
     background-color: #E2ECE9;
 }
 
-.PathwaysForward-section .block {
+.Project-section .block {
     background-color: white;
     margin: 10px;
     padding: 10px;
@@ -199,35 +199,59 @@ body {
     text-align: center;
 }
 
-.PathwaysForward-section .heading p {
+.Project-section .heading p {
     font-size: 0.75rem;
     margin: 5px 15px;
 }
 
-.PathwaysForward-section .heading h2 {
+.Project-section .heading h2 {
     font-size: 0.9rem;
     margin: 0;
 }
 
-.PathwaysForward-section .main {
+.Project-section .main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     font-family: 'Georgia', serif;
 }
 
-.PathwaysForward-section .main .project-report {
+.purple-button {
     background-color: #1f1732;
     color: white;
     width: fit-content;
     padding: 10px 20px;
     border-radius: 10px;
+    margin: 10px;
 }
 
-.PathwaysForward-section .main p {
+.Project-section img {
+    max-width: 250px;
+}
+
+.Project-section .main p {
     font-size: 0.75rem;
     margin: 10px;
 }
+
+.Project-section .solution .features {
+    text-align: left;
+}
+
+.Project-section .solution .features h4 {
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.Project-section .design h3 {
+    font-size: 1.25rem;
+}
+
+.Project-section .banner {
+    max-width: 300px;
+    padding: 10px 0;
+}
+
 
 @media (min-width: 768px) {
 
@@ -349,6 +373,52 @@ body {
     .work-section .blurb-box {
        margin-bottom: 30px;
     }
+
+    .Project-section .main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: 'Georgia', serif;
+    }
+
+    .Project-section .block {
+        max-width: 700px;
+    }
+
+    .Project-section .main p {
+        font-size: 1.1rem;
+        padding: 10px;
+    }
+    
+    .Project-section .main .heading h2 {
+        font-size: 1.2rem;
+    }
+    
+    .purple-button {
+        font-size: 1.2rem;
+    }
+    
+    .Project-section img {
+        max-width: 600px;
+    }
+    
+    .Project-section .solution .features {
+        text-align: left;
+    }
+    
+    .Project-section .solution .features h4 {
+        font-size: 1rem;
+        font-weight: 550;
+    }
+    
+    .Project-section .design h3 {
+        font-size: 1.25rem;
+    }
+
+    .Project-section .banner{
+        max-width: 700px;
+        padding-top: 20px;
+    }
      
 }
 
@@ -402,6 +472,50 @@ body {
     }
     .work-section .blurb-box p {
         font-size: 1.25rem;
+    }
+
+    .Project-section .block {
+        max-width: 750px;
+    }
+
+    .Project-section .main .heading{
+        max-width: 950px;
+        margin-top: 30px;
+    }
+
+    .Project-section .main p {
+        font-size: 1.1rem;
+        padding: 10px;
+    }
+    
+    .Project-section .main .heading h2 {
+        font-size: 1.2rem;
+    }
+    
+    .purple-button {
+        font-size: 1.2rem;
+    }
+    
+    .Project-section img {
+        max-width: 700px;
+    }
+    
+    .Project-section .solution .features {
+        text-align: left;
+    }
+    
+    .Project-section .solution .features h4 {
+        font-size: 1rem;
+        font-weight: 550;
+    }
+    
+    .Project-section .design h3 {
+        font-size: 1.25rem;
+    }
+
+    .Project-section .banner{
+        max-width: 950px;
+        padding-top: 40px;
     }
 }
 

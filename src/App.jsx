@@ -8,7 +8,7 @@ import {PathwaysForward} from './PathwaysForward.jsx';
 
 export function App (props) {
     return (
-        <PathwaysForward />
+        <WorkPage />
     );
 }
 
