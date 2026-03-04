@@ -105,14 +105,25 @@ body {
 .work-section .blurb-box {
     background-color: white;
     width: 100%;
-    height: 200px;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
 }
 
-.project-card {
+.work-section .blurb-box p {
+    text-align: center;
+    padding: 30px 25px;
+    margin: 0 10px;
+    font-weight: 300;
+}
+
+.project-card-lg {
+    display: none;
+}
+
+.project-card-small {
     max-width: 300px;
     margin: 15px 15px;
     padding: 10px;
@@ -121,10 +132,9 @@ body {
     justify-content: center;
     background-color: white;
     border-radius: 10px;
-    border: solid black 1px;
 }
 
-.project-card h3 {
+.project-card-small h3 {
     font-family: 'Georgia', serif;
     font-weight: 550;
     font-size: 1.75rem;
@@ -132,22 +142,19 @@ body {
     margin-bottom: 10px;
 }
 
-.project-card img {
+.project-card-small img {
     max-width: 250px;
     max-height: auto;
-    border: black solid 1px;
     border-radius: 5px;
-    padding: 3px;
 }
 
-.project-card .tag {
+.project-card-small .tag {
     font-size: 0.75rem;
     width: fit-content;
     padding: 8px;
     margin: 3px 3px;
     border-radius: 10px;
     margin-top: 10px;
-    border: black solid 1px; 
     font-weight: 450;
 }
 
@@ -181,6 +188,45 @@ body {
 
 .tag.problem {
     background-color: #E2ECE9;
+}
+
+.PathwaysForward-section .block {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Georgia', serif;
+    text-align: center;
+}
+
+.PathwaysForward-section .heading p {
+    font-size: 0.75rem;
+    margin: 5px 15px;
+}
+
+.PathwaysForward-section .heading h2 {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.PathwaysForward-section .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Georgia', serif;
+}
+
+.PathwaysForward-section .main .project-report {
+    background-color: #1f1732;
+    color: white;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.PathwaysForward-section .main p {
+    font-size: 0.75rem;
+    margin: 10px;
 }
 
 @media (min-width: 768px) {
@@ -255,25 +301,55 @@ body {
         margin-right: 30px;
     }
 
-    .project-card {
-       max-width: 650px;
-       padding: 25px;
-    }
-    
-    .project-card h3 {
+    .project-card-small {
+        display: none;
+     }
+
+    .project-card-lg {
+        display: flex;
+        max-width: 700px;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+     }
+
+     .project-card-lg img {
+        max-width: 700px;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+
+     .project-card-lg h3 {
         font-size: 2.5rem;
+        margin-right: auto;
+        text-align: left;
+        padding: 15px 0 0;
+        font-family: 'Georgia', serif;
     }
 
-    .project-card img {
-        max-width: 550px;
-        max-height: 500px;
+    .project-card-lg .tag {
+        font-size: 1rem;
+        width: fit-content;
+        height: fit-content;
+        padding: 8px;
+        margin: 5px 3px 30px 0;
+        border-radius: 10px;
+        font-weight: 500;
     }
-    
-    .project-card .tag {
-        font-size: 1.25rem;
-    }
-    
 
+    .project-card-lg .tags {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-right: auto;
+    }
+
+    .work-section .blurb-box {
+       margin-bottom: 30px;
+    }
+     
 }
 
 @media (min-width: 1024px) {
@@ -324,24 +400,9 @@ body {
     .work-section .blurb-box {
         font-size: 1.5rem;
     }
-
-    .project-card {
-        max-width: 900px;
-     }
-     
-     .project-card h3 {
-         font-size: 3rem;
-     }
- 
-     .project-card img {
-         max-width: 800px;
-         max-height: 800px;
-     }
-     
-     .project-card .tag {
-         font-size: 1.75rem;
-     }
-
+    .work-section .blurb-box p {
+        font-size: 1.25rem;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -385,22 +446,5 @@ body {
     .work-section .blurb-box {
         font-size: 2rem;
     }
-
-    .project-card {
-        max-width: 1300px;
-     }
-     
-     .project-card h3 {
-         font-size: 3.5rem;
-     }
- 
-     .project-card img {
-         max-width: 1000px;
-         max-height: 1000px;
-     }
-     
-     .project-card .tag {
-         font-size: 2.5rem;
-     }
 
 }

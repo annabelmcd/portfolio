@@ -4,10 +4,11 @@ import '../style.css';
 import { NavBar } from './NavBar.jsx';
 import { AboutPage } from './AboutPage.jsx';
 import { WorkPage } from './WorkPage.jsx';
+import {PathwaysForward} from './PathwaysForward.jsx';
 
 export function App (props) {
     return (
-        <WorkPage />
+        <PathwaysForward />
     );
 }
 

@@ -8,52 +8,109 @@ export function WorkPage(props) {
             <NavBar />
 
             <div className="work-section">
-                <h2>- Projects -⁠</h2>
+                <h2>Projects⁠</h2>
                 <div className="blurb-box">
-                    <p className="blurb-text">blurb</p>
+                    <p className="blurb-text">
+                        Welcome to my portfolio! Here you'll find the projects I've done that I am most passionate about sharing. This is <strong>not a design focused portfolio</strong>. Rather, it is a place for me to highlight my <strong>process</strong> for each project and share the experiences and skills I've built along the way. There are projects focused in <strong>User Research, Interface Design, Problem Solving, and Technical Implementation.</strong>
+                    </p>
                 </div>
 
-                <div className="project-card">
-                    <h3>ChoreSync</h3>
-                    <div className="break"></div>
-                    <img src="/img/ChoreSync-MainPage.png" />
-                    <div className="break"></div>
-                    <h4 className="tag web">Web Development</h4>
-                    <h4 className="tag responsive">Responsive Design</h4>
-                </div>
-
-                <div className="project-card">
+                <div className="project-card-small">
                     <h3>Pathways Forward</h3>
                     <div className="break"></div>
-                    <img src="/img/PathwaysForward-Main.png" />
+                    <img src="/img/PathwaysForward-Banner.png" />
                     <div className="break"></div>
                     <h4 className="tag research">User Research</h4>
-                    <h4 className="tag iterative">Iterative Process</h4>
                     <h4 className="tag problem">Real-World Problem</h4>
                     <h4 className="tag figma">Figma</h4>
                     <h4 className="tag prototyping">Prototyping</h4>
                     <h4 className="tag wireframing">Wireframing</h4>
                 </div>
 
-                <div className="project-card">
+                <div className="project-card-lg">
+                    <img src="/img/PathwaysForward-Banner.png" /> 
+                    <div className="break"></div>
+                    <h3>Pathways Forward</h3>
+                    <div className="break"></div>
+                    <div className="tags">
+                        <h4 className="tag research">User Research</h4>
+                        <h4 className="tag problem">Real-World Problem</h4>
+                        <h4 className="tag figma">Figma</h4>
+                        <h4 className="tag prototyping">Prototyping</h4>
+                        <h4 className="tag wireframing">Wireframing</h4>
+                    </div>
+                </div>
+
+                <div className="break"></div>
+
+                <div className="project-card-small">
+                    <h3>ChoreSync</h3>
+                    <div className="break"></div>
+                    <img src="/img/ChoreSync-Banner.png" />
+                    <div className="break"></div>
+                    <h4 className="tag web">Web Development</h4>
+                    <h4 className="tag responsive">Responsive Design</h4>
+                </div>
+
+                <div className="project-card-lg">
+                    <img src="/img/ChoreSync-Banner.png" /> 
+                    <div className="break"></div>
+                    <h3>ChoreSync</h3>
+                    <div className="break"></div>
+                    <div className="tags">
+                        <h4 className="tag web">Web Development</h4>
+                        <h4 className="tag responsive">Responsive Design</h4>
+                    </div>
+                </div>
+
+                <div className="break"></div>
+
+                <div className="project-card-small">
                     <h3>OtterWise</h3>
                     <div className="break"></div>
-                    <img src="/img/OtterWise-Logo.png" />
+                    <img src="/img/OtterWise-Banner.png" />
                     <div className="break"></div>
                     <h4 className="tag figma">Figma</h4>
                     <h4 className="tag prototyping">Prototyping</h4>
                     <h4 className="tag problem">Real-World Problem</h4>
                 </div>
 
-                <div className="project-card">
-                    <h3>This Website!</h3>
+                <div className="project-card-lg">
+                    <img src="/img/OtterWise-Banner.png" /> 
                     <div className="break"></div>
-                    <img src="/img/OtterWise-Logo.png" />
+                    <h3>OtterWise</h3>
                     <div className="break"></div>
-                    <h4 className="tag web">Web Development</h4>
-                    <h4 className="tag iterative">Iterative Process</h4>
-                    <h4 className="tag responsive">Responsive Design</h4>
+                    <div className="tags">
+                        <h4 className="tag figma">Figma</h4>
+                        <h4 className="tag prototyping">Prototyping</h4>
+                        <h4 className="tag problem">Real-World Problem</h4>
+                    </div>
                 </div>
+
+                <div className="break"></div>
+
+                <div className="project-card-small">
+                    <h3>HuskyCommuter</h3>
+                    <div className="break"></div>
+                    <img src="/img/HuskyCommuter-Banner.png" />
+                    <div className="break"></div>
+                        <h4 className="tag research">User Research</h4>
+                        <h4 className="tag figma">Figma</h4>
+                        <h4 className="tag prototyping">Prototyping</h4>
+                </div>
+                
+                <div className="project-card-lg">
+                    <img src="/img/HuskyCommuter-Banner.png" /> 
+                    <div className="break"></div>
+                    <h3>HuskyCommuter</h3>
+                    <div className="break"></div>
+                    <div className="tags">
+                        <h4 className="tag research">User Research</h4>
+                        <h4 className="tag figma">Figma</h4>
+                        <h4 className="tag prototyping">Prototyping</h4>
+                    </div>
+                </div>
+
             </div>
 
         </div>
