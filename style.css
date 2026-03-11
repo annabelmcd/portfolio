@@ -311,6 +311,10 @@ body {
     padding-left: 15px;
 }
 
+.source-code {
+    font-weight: bold;
+}
+
 
 @media (min-width: 768px) {
 

@@ -14,6 +14,9 @@ export function Footer(props) {
                 <Link to='/work' className="footer-mini">Work</Link>  
                 <br />
                 <a href="https://drive.google.com/file/d/1Skbav1cC3q8n-a6vnV1q6V_PrHFZQPlp/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="footer-mini">Resume</a>
+                <br />
+                <br />
+                <a href="https://github.com/annabelmcd/portfolio" target="_blank" rel="noopener noreferrer" className="source-code">Website Source Code</a>
             </div>
             <div className="footer-div">
                 <h3>Connect</h3>
