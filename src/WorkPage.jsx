@@ -20,7 +20,7 @@ export function WorkPage(props) {
                 <Link to='/work/PathwaysForward' className="project-card-small">
                     <h3>Pathways Forward</h3>
                     <div className="break"></div>
-                    <img src="/img/PathwaysForward-Banner.png" />
+                    <img src="img/PathwaysForward-Banner.png" />
                     <div className="break"></div>
                     <h4 className="tag research">User Research</h4>
                     <h4 className="tag problem">Real-World Problem</h4>
@@ -30,7 +30,7 @@ export function WorkPage(props) {
                 </Link>
 
                 <Link to='/work/PathwaysForward' className="project-card-lg">
-                    <img src="/img/PathwaysForward-Banner.png" /> 
+                    <img src="img/PathwaysForward-Banner.png" /> 
                     <div className="break"></div>
                     <h3>Pathways Forward</h3>
                     <div className="break"></div>
@@ -48,14 +48,14 @@ export function WorkPage(props) {
                 <Link to='/work/ChoreSync' className="project-card-small">
                     <h3>ChoreSync</h3>
                     <div className="break"></div>
-                    <img src="/img/ChoreSync-Banner.png" />
+                    <img src="img/ChoreSync-Banner.png" />
                     <div className="break"></div>
                     <h4 className="tag web">Web Development</h4>
                     <h4 className="tag responsive">Responsive Design</h4>
                 </Link>
 
                 <Link to='/work/ChoreSync' className="project-card-lg">
-                    <img src="/img/ChoreSync-Banner.png" /> 
+                    <img src="img/ChoreSync-Banner.png" /> 
                     <div className="break"></div>
                     <h3>ChoreSync</h3>
                     <div className="break"></div>
@@ -70,7 +70,7 @@ export function WorkPage(props) {
                 <Link to='/work/OtterWise' className="project-card-small">
                     <h3>OtterWise</h3>
                     <div className="break"></div>
-                    <img src="/img/OtterWise-Banner.png" />
+                    <img src="img/OtterWise-Banner.png" />
                     <div className="break"></div>
                     <h4 className="tag figma">Figma</h4>
                     <h4 className="tag prototyping">Prototyping</h4>
@@ -78,7 +78,7 @@ export function WorkPage(props) {
                 </Link>
 
                 <Link to='/work/OtterWise' className="project-card-lg">
-                    <img src="/img/OtterWise-Banner.png" /> 
+                    <img src="img/OtterWise-Banner.png" /> 
                     <div className="break"></div>
                     <h3>OtterWise</h3>
                     <div className="break"></div>
@@ -94,7 +94,7 @@ export function WorkPage(props) {
                 <Link to='/work/HuskyCommuter' className="project-card-small">
                     <h3>HuskyCommuter</h3>
                     <div className="break"></div>
-                    <img src="/img/HuskyCommuter-Banner.png" />
+                    <img src="img/HuskyCommuter-Banner.png" />
                     <div className="break"></div>
                         <h4 className="tag research">User Research</h4>
                         <h4 className="tag figma">Figma</h4>
@@ -102,7 +102,7 @@ export function WorkPage(props) {
                 </Link>
                 
                 <Link to='/work/HuskyCommuter' className="project-card-lg">
-                    <img src="/img/HuskyCommuter-Banner.png" /> 
+                    <img src="img/HuskyCommuter-Banner.png" /> 
                     <div className="break"></div>
                     <h3>HuskyCommuter</h3>
                     <div className="break"></div>

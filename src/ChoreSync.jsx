@@ -12,7 +12,7 @@ export function ChoreSync(props) {
 
                 <div className='main'>
 
-                    <img src="/img/ChoreSync-Banner.png" className='banner'/>
+                    <img src="img/ChoreSync-Banner.png" className='banner'/>
                     <div className="break"></div>
 
                     <div className='heading block'>
@@ -78,17 +78,17 @@ export function ChoreSync(props) {
                     <div className='prototype block'>
                         <h2>Website Frames</h2>
                         <hr />
-                        <img src="/img/ChoreSync-MainPage.png" />
+                        <img src="img/ChoreSync-MainPage.png" />
                         <p>The main screen of our website that shows a list of tasks that need to be completed. Clicking on any of the names in the navigation bar will filter the tasks to those assigned to that household member. From each page, the user can easily navigate anywhere within the website as the navigation bar is always visible.</p>
-                        <img src="/img/ChoreSync-CalendarPage.png" />
+                        <img src="img/ChoreSync-CalendarPage.png" />
                         <p>The Calendar Page where tasks are displayed based on their assigned due dates. The toggle at the top allows users to seamlessly transition between weeks.</p>
-                        <img src="/img/ChoreSync-ProgressPage.png" />
+                        <img src="img/ChoreSync-ProgressPage.png" />
                         <p>The Progress Page. Each task has a designated number of points, depending on its difficulty. After a household member marks a task complete, their stats are updated and visible on the Progress page.</p>
-                        <img src="/img/ChoreSync-AddTask.png" />
+                        <img src="img/ChoreSync-AddTask.png" />
                         <p>By clicking the green "Add Task" button that is visible on every page, members can easily add new tasks and assign them to anyone in the household.</p>
-                        <img src="/img/ChoreSync-EditChores.png" />
+                        <img src="img/ChoreSync-EditChores.png" />
                         <p>If any member wishes to change the list of chores selected for their household, they can navigate to the settings page.</p>
-                        <img src="/img/ChoreSync-Create&Join.png" />
+                        <img src="img/ChoreSync-Create&Join.png" />
                         <p>Users can join and create as many households as they would like and easily swap between them in settings.</p>
                     </div>
 

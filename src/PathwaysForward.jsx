@@ -12,7 +12,7 @@ export function PathwaysForward(props) {
 
                 <div className='main'>
 
-                    <img src="/img/PathwaysForward-Banner.png" className='banner'/>
+                    <img src="img/PathwaysForward-Banner.png" className='banner'/>
                     <div className="break"></div>
 
                     <div className='heading block'>
@@ -43,7 +43,7 @@ export function PathwaysForward(props) {
                         <p>People experiencing homelessness are a difficult group to reach through surveys and interviews. We redirected our attention to service workers at food banks and shelters to learn more about their experiences and the needs of people they provide care to.</p>
                         <hr />
                         <h3>User Persona</h3>
-                        <img src="/img/PathwaysForward-persona.png" alt='User Persona. Addie is a mother to her 3 year old daughter, Tracie. She has been homeless for about 2 years. She is currently unemployed, and searching for job opportunities to support her and Tracie, but has a hard time finding positions that fit her skillset. She also spends a lot of her time searching for safe places to sleep, especially during Seattles cold winters, for her and Tracie, but has run out of places to look. Without a phone or easy access to technology, Addie relies heavily on word-of-mouth to find help resources for her and her daughter.'/>
+                        <img src="img/PathwaysForward-persona.png" alt='User Persona. Addie is a mother to her 3 year old daughter, Tracie. She has been homeless for about 2 years. She is currently unemployed, and searching for job opportunities to support her and Tracie, but has a hard time finding positions that fit her skillset. She also spends a lot of her time searching for safe places to sleep, especially during Seattles cold winters, for her and Tracie, but has run out of places to look. Without a phone or easy access to technology, Addie relies heavily on word-of-mouth to find help resources for her and her daughter.'/>
                     </div>
 
                     <div className="break"></div>
@@ -74,11 +74,11 @@ export function PathwaysForward(props) {
                     <div className='wireframe block'>
                         <h2>Low-Fidelity Wireframes</h2>
                         <hr />
-                        <img src="/img/PathwaysForward-LowFid1.png" />
-                        <img src="/img/PathwaysForward-LowFid2.png" />
-                        <img src="/img/PathwaysForward-LowFid3.png" />
-                        <img src="/img/PathwaysForward-LowFid4.png" />
-                        <img src="/img/PathwaysForward-LowFid5.png" />
+                        <img src="img/PathwaysForward-LowFid1.png" />
+                        <img src="img/PathwaysForward-LowFid2.png" />
+                        <img src="img/PathwaysForward-LowFid3.png" />
+                        <img src="img/PathwaysForward-LowFid4.png" />
+                        <img src="img/PathwaysForward-LowFid5.png" />
                     </div>
 
                     <div className="break"></div>
@@ -89,7 +89,7 @@ export function PathwaysForward(props) {
                         <h3>Font: Nunito</h3>
                         <h3>Colors:</h3>
                         <p>We selected these colors because we wanted out device's design to follow a similar color pattern to Seattle Sound Transit.</p>
-                        <img src="/img/PathwaysForward-colorscheme.png" />
+                        <img src="img/PathwaysForward-colorscheme.png" />
                     </div>
 
                     <div className="break"></div>
@@ -97,15 +97,15 @@ export function PathwaysForward(props) {
                     <div className='prototype block'>
                         <h2>High-Fidelity Wireframes</h2>
                         <hr />
-                        <img src="/img/PathwaysForward-HighFid1.png" />
+                        <img src="img/PathwaysForward-HighFid1.png" />
                         <p>This is the welcome screen that clearly lays out all of the resources a user may need more information about.</p>
-                        <img src="/img/PathwaysForward-HighFid2.png" />
+                        <img src="img/PathwaysForward-HighFid2.png" />
                         <p>After choosing one of the buttons, the user is directed to this screen that displays information about each of the available resources. The user can rank the resources by distance, ratings, hours open, or amenities.</p>
-                        <img src="/img/PathwaysForward-HighFid3.png" />
+                        <img src="img/PathwaysForward-HighFid3.png" />
                         <p>Clicking on the live map button, the user is able to clearly see how to get to any of the nearby locations. Clicking on any of the icons will provide more information.</p>
-                        <img src="/img/PathwaysForward-HighFid4.png" />
+                        <img src="img/PathwaysForward-HighFid4.png" />
                         <p>Clicking on any of the options will display more information about them, including directions from the user's current location.</p>
-                        <img src="/img/PathwaysForward-HighFid5.png" />
+                        <img src="img/PathwaysForward-HighFid5.png" />
                         <p>A pamphlet with the most important information can be printed so that the information they received can be referenced again and again.</p>
                     </div>
 
