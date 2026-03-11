@@ -95,7 +95,7 @@ export function HuskyCommuter(props) {
                     <div className='ideation block'>
                         <h2>Analytical Evaluation</h2>
                         <hr />
-                        <p>After completing our intial prototype in Figma, we completed a cognitive walkthrough to pinpoint areas to improve.</p>
+                        <p>After completing our initial prototype in Figma, we completed a cognitive walkthrough to pinpoint areas to improve.</p>
                     </div>
 
                     <div className="break"></div>
@@ -122,7 +122,7 @@ export function HuskyCommuter(props) {
                         <div className='features'>
                             <hr />
                             <h4>• Travel Planner</h4>
-                            <p>↳ Users can import their class schedules and recieve travel options to arrive on-time.</p>
+                            <p>↳ Users can import their class schedules and receive travel options to arrive on-time.</p>
                             <h4>• Live Parking Map</h4>
                             <p>↳ Shows available parking spots across campus. Users can also reserve spots through the app.</p>
                             <h4>• Commuter Chat</h4>

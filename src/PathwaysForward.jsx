@@ -58,7 +58,7 @@ export function PathwaysForward(props) {
                             <hr />
                             <h4>• Interactive Touch Screen</h4>
                             <p>↳ Responsive touch screen designed for user-friendly navigation needs.</p>
-                            <h4>• Live Map and Navigation Assitance</h4>
+                            <h4>• Live Map and Navigation Assistance</h4>
                             <p>↳ Screen displays a live map connected to Seattle's public transit system to provide real-time information on bus routes and directions to nearby essential resources.</p>
                             <h4>• Pamphlet Printing</h4>
                             <p>↳ Users can print information pamphlets to help them access information without the need of technology. These pamphlets include directions to their selected resource(s), as well as hours and other important details.</p>
@@ -106,7 +106,7 @@ export function PathwaysForward(props) {
                         <img src="/img/PathwaysForward-HighFid4.png" />
                         <p>Clicking on any of the options will display more information about them, including directions from the user's current location.</p>
                         <img src="/img/PathwaysForward-HighFid5.png" />
-                        <p>A pamphlet with the most important information can be printed so that the information they recieved can be referenced again and again.</p>
+                        <p>A pamphlet with the most important information can be printed so that the information they received can be referenced again and again.</p>
                     </div>
 
                     <div className="break"></div>

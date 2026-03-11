@@ -58,7 +58,7 @@ export function ChoreSync(props) {
                         <h3>Primary Features</h3>
                         <div className='features'>
                             <hr />
-                            <h4>• Memeber Views</h4>
+                            <h4>• Member Views</h4>
                             <p>↳ Show household tasks per person in each view, or see everyone's tasks collectively.</p>
                             <h4>• Calendar View</h4>
                             <p>↳ See tasks in a calendar for better planning.</p>
@@ -83,9 +83,9 @@ export function ChoreSync(props) {
                         <img src="/img/ChoreSync-CalendarPage.png" />
                         <p>The Calendar Page where tasks are displayed based on their assigned due dates. The toggle at the top allows users to seamlessly transition between weeks.</p>
                         <img src="/img/ChoreSync-ProgressPage.png" />
-                        <p>The Progress Page. Eask task has a designated number of points, depending on its difficulty. After a household member marks a task complete, their stats are updated and visible on the Progress page.</p>
+                        <p>The Progress Page. Each task has a designated number of points, depending on its difficulty. After a household member marks a task complete, their stats are updated and visible on the Progress page.</p>
                         <img src="/img/ChoreSync-AddTask.png" />
-                        <p>By clicking the green "Add Task" button that is visible on every page, mambers can easily add new tasks and assign them to anyone in the household.</p>
+                        <p>By clicking the green "Add Task" button that is visible on every page, members can easily add new tasks and assign them to anyone in the household.</p>
                         <img src="/img/ChoreSync-EditChores.png" />
                         <p>If any member wishes to change the list of chores selected for their household, they can navigate to the settings page.</p>
                         <img src="/img/ChoreSync-Create&Join.png" />

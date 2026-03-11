@@ -19,7 +19,7 @@ export function OtterWise(props) {
                         <h1>OtterWise</h1>
                         <hr />
                         <p>An app that focuses on promoting media literacy in younger generations.</p> 
-                        <p>OtterWise hopes to target social media's impact on the spread of misinformation through information modules, gamified enagement incentives, and misinformation detection and user notification.</p>
+                        <p>OtterWise hopes to target social media's impact on the spread of misinformation through information modules, gamified engagement incentives, and misinformation detection and user notification.</p>
                         <hr />
                         <h2>WINFO Hackathon -</h2>
                         <h2>Winter 2026</h2>
