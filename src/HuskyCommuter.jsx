@@ -133,7 +133,7 @@ export function HuskyCommuter(props) {
                     <div className="break"></div>
 
                     <a href="https://www.figma.com/proto/6fAY1OHm2RQ6PURsx67HIw/INFO-360---Prototype?node-id=19-4&p=f&t=PWcQymsKhDNvYEvt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=19%3A4" className='purple-button'>Link to Interactive Prototype</a>
-                    <Link to='/work' className='purple-button'>Back to Projects</Link>
+                    <Link to='/portfolio/work' className='purple-button'>Back to Projects</Link>
 
                 </div>
 

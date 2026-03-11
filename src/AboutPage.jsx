@@ -17,12 +17,12 @@ export function AboutPage(props){
                 <div className="about-buttons-small">
                     <a href="https://drive.google.com/file/d/1Skbav1cC3q8n-a6vnV1q6V_PrHFZQPlp/view?usp=sharing" className="about-section-button" target="_blank" rel="noopener noreferrer">Resume</a>
                     <div className="break"></div>
-                    <Link to='/work' className="about-section-button">Portfolio</Link>
+                    <Link to='/portfolio/work' className="about-section-button">Portfolio</Link>
                 </div>
             </div>
             <div className="about-buttons-large">
                 <a href="https://drive.google.com/file/d/1Skbav1cC3q8n-a6vnV1q6V_PrHFZQPlp/view?usp=sharing" className="about-section-button">Resume</a>
-                <Link to='work' className="about-section-button portfolio">Portfolio</Link>
+                <Link to='/portfolio/work' className="about-section-button portfolio">Portfolio</Link>
             </div>
             <Footer />
         </div>

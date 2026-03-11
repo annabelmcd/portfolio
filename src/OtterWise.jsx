@@ -91,7 +91,7 @@ export function OtterWise(props) {
 
                     <div className="break"></div>
 
-                    <Link to='/work' className='purple-button'>Back to Projects</Link>
+                    <Link to='/portfolio/work' className='purple-button'>Back to Projects</Link>
 
                 </div>
 
