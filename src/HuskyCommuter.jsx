@@ -12,7 +12,7 @@ export function HuskyCommuter(props) {
 
                 <div className='main'>
 
-                    <img src="img/HuskyCommuter-Banner.png" className='banner'/>
+                    <img src="./img/HuskyCommuter-Banner.png" className='banner'/>
                     <div className="break"></div>
 
                     <div className='heading block'>
@@ -60,7 +60,7 @@ export function HuskyCommuter(props) {
                         <p>We explored solutions that already exist that try to solve our problem and identified their strengths and weaknesses in order to inform the direction of our product.</p>
                         <hr />
                         <h3>Clever Commute</h3>
-                        <img src='img/HuskyCommuter-CleverCommute.png' />
+                        <img src='./img/HuskyCommuter-CleverCommute.png' />
                         <div className='pros-cons'>
                             <h4>Key Strengths:</h4>
                             <p>↳ Provides a form of community for commuters through a forum-like communication platform.</p>
@@ -71,7 +71,7 @@ export function HuskyCommuter(props) {
                         </div>
                         <hr />
                         <h3>CityMapper</h3>
-                        <img src='img/HuskyCommuter-CityMapper.png' />
+                        <img src='./img/HuskyCommuter-CityMapper.png' />
                         <div className='pros-cons'>
                             <h4>Key Strengths:</h4>
                             <p>↳ Provides users with all available information regarding various transportation options.</p>
@@ -89,7 +89,7 @@ export function HuskyCommuter(props) {
                     <div className='ideation block'>
                         <h2>Ideation</h2>
                         <hr />
-                        <img src='img/HuskyCommuter-ideation.png' />
+                        <img src='./img/HuskyCommuter-ideation.png' />
                     </div>
 
                     <div className='ideation block'>

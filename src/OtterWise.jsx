@@ -12,7 +12,7 @@ export function OtterWise(props) {
 
                 <div className='main'>
 
-                    <img src="img/OtterWise-Banner.png" className='banner'/>
+                    <img src="./img/OtterWise-Banner.png" className='banner'/>
                     <div className="break"></div>
 
                     <div className='heading block'>
@@ -75,17 +75,17 @@ export function OtterWise(props) {
                     <div className='prototype block'>
                         <h2>Wireframes</h2>
                         <hr />
-                        <img src="img/OtterWise-Frame1.png" />
+                        <img src="./img/OtterWise-Frame1.png" />
                         <p>Home Screen</p>
-                        <img src="img/OtterWise-Frame2.png" />
+                        <img src="./img/OtterWise-Frame2.png" />
                         <p>Otter Habitat</p>
-                        <img src="img/OtterWise-Frame3.png" />
+                        <img src="./img/OtterWise-Frame3.png" />
                         <p>Informational Modules</p>
-                        <img src="img/OtterWise-Frame4.png" />
+                        <img src="./img/OtterWise-Frame4.png" />
                         <p>Misinformation Detector</p>
-                        <img src="img/OtterWise-Frame5.png" />
+                        <img src="./img/OtterWise-Frame5.png" />
                         <p>Description of Misinformation Detector</p>
-                        <img src="img/OtterWise-Frame6.png" />
+                        <img src="./img/OtterWise-Frame6.png" />
                         <p>Widgets</p>
                     </div>
 
