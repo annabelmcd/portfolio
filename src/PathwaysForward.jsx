@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavBar } from './NavBar.jsx';
+import { Footer } from './Footer.jsx';
+import { Link } from 'react-router';
 
 export function PathwaysForward(props) {
     return (
@@ -25,10 +27,6 @@ export function PathwaysForward(props) {
                         <p><strong>Figma:</strong> for wireframing and prototyping</p>
                     </div>
 
-                    <div className="break"></div>
-                    
-                    <div className='purple-button'>Link to Project Report</div>
-                    
                     <div className="break"></div>
 
                     <div className='problem block'>
@@ -113,12 +111,14 @@ export function PathwaysForward(props) {
 
                     <div className="break"></div>
 
-                    <div className='purple-button'>Link to Interactive Prototype</div>
-                    <div className='purple-button'>Back to Projects</div>
+                    <a href="https://www.figma.com/proto/h6PMtQKMOZ9j6sWBBZLshQ/nfagun-s-team-library?node-id=3375-15&starting-point-node-id=3375%3A15&t=ePbBVVe84YXgXOc7-1" className='purple-button'>Link to Interactive Prototype</a>
+                    <Link to='/work' className='purple-button'>Back to Projects</Link>
 
                 </div>
 
             </div>
+
+            <Footer />
 
         </div>
     );

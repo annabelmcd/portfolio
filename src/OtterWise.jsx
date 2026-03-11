@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavBar } from './NavBar.jsx';
+import { Footer } from './Footer.jsx';
+import { Link } from 'react-router';
 
 export function OtterWise(props) {
     return (
@@ -66,7 +68,7 @@ export function OtterWise(props) {
 
                     <div className="break"></div>
 
-                    <div className='purple-button'>Link to Prototype</div>
+                    <a href="https://www.figma.com/proto/DlSxiyRu5dmIXstcCpat1A/OtterWise?node-id=152-562&starting-point-node-id=5%3A805&t=CJxtemmNnUS6eVVk-1" className='purple-button'>Link to Prototype</a>
 
                     <div className="break"></div>
 
@@ -89,11 +91,13 @@ export function OtterWise(props) {
 
                     <div className="break"></div>
 
-                    <div className='purple-button'>Back to Projects</div>
+                    <Link to='/work' className='purple-button'>Back to Projects</Link>
 
                 </div>
 
             </div>
+
+            <Footer />
 
         </div>
     );

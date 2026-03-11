@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavBar } from './NavBar.jsx';
+import { Footer } from './Footer.jsx';
+import { Link } from 'react-router';
 
 export function ChoreSync(props) {
     return (
@@ -92,11 +94,12 @@ export function ChoreSync(props) {
 
                     <div className="break"></div>
 
-                    <div className='purple-button'>Back to Projects</div>
+                    <Link to='/work' className='purple-button'>Back to Projects</Link>
 
                 </div>
 
             </div>
+            <Footer />
 
         </div>
     );

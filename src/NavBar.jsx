@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 export function NavBar(props) {
         
@@ -7,9 +8,9 @@ export function NavBar(props) {
             <header><h1>ANNABEL</h1></header>
             <div className="break"></div>
             <div className="buttons">
-                <div className="button about">About</div>
+                <Link to='/' className="button about">About</Link>
                 <div className="divider"> | </div>
-                <div className="button work">Work</div>
+                <Link to='/work' className="button work">Work</Link>
             </div>
         </div>
     );

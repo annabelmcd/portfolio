@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavBar } from './NavBar.jsx';
+import { Footer } from './Footer.jsx';
+import { Link } from 'react-router';
 
 export function HuskyCommuter(props) {
     return (
@@ -98,7 +100,7 @@ export function HuskyCommuter(props) {
 
                     <div className="break"></div>
 
-                    <div className='purple-button'>Link to Cognitive Walkthrough</div>
+                    <a href="https://drive.google.com/file/d/1wE52ji4lMihAY4DBhobiK6DfVHCKKy_2/view?usp=sharing" className='purple-button'>Link to Cognitive Walkthrough</a>
                     <div className="break"></div>
 
                     <div className='ideation block'>
@@ -109,7 +111,7 @@ export function HuskyCommuter(props) {
 
                     <div className="break"></div>
 
-                    <div className='purple-button'>Link to Interview Scripts</div>
+                    <a href="https://drive.google.com/file/d/1iz0dwJyXnKjumS6Nx07qCOKNpBMMmpQi/view?usp=sharing" className='purple-button'>Link to Interview Scripts</a>
 
                     <div className="break"></div>
 
@@ -130,12 +132,14 @@ export function HuskyCommuter(props) {
 
                     <div className="break"></div>
 
-                    <div className='purple-button'>Link to Interactive Prototype</div>
-                    <div className='purple-button'>Back to Projects</div>
+                    <a href="https://www.figma.com/proto/6fAY1OHm2RQ6PURsx67HIw/INFO-360---Prototype?node-id=19-4&p=f&t=PWcQymsKhDNvYEvt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=19%3A4" className='purple-button'>Link to Interactive Prototype</a>
+                    <Link to='/work' className='purple-button'>Back to Projects</Link>
 
                 </div>
 
             </div>
+
+            <Footer />
 
         </div>
     );

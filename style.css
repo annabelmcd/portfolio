@@ -37,6 +37,8 @@ body {
 
 .navbar .button {
     padding: 0 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .about-section {
@@ -76,6 +78,7 @@ body {
 }
 
 .about-section-button {
+    display: block;
     background-color: white;
     margin-bottom: 15px;
     padding: 4px 20px;
@@ -84,6 +87,8 @@ body {
     text-align: center;
     border: black solid 0.75px;
     box-shadow: 0.75px 0.75px 1.5px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    color: black;
 }
 
 .break {
@@ -122,6 +127,8 @@ body {
 
 .project-card-lg {
     display: none;
+    text-decoration: none;
+    color: black;
 }
 
 .project-card-small {
@@ -133,6 +140,8 @@ body {
     justify-content: center;
     background-color: white;
     border-radius: 10px;
+    text-decoration: none;
+    color: black;
 }
 
 .project-card-small h3 {
@@ -224,12 +233,14 @@ body {
 }
 
 .purple-button {
+    display: block;
     background-color: #1f1732;
     color: white;
     width: fit-content;
     padding: 10px 20px;
     border-radius: 10px;
     margin: 10px;
+    text-decoration: none;
 }
 
 .Project-section img {
@@ -261,6 +272,43 @@ body {
 
 .Project-section .pros-cons {
     text-align: left;
+}
+
+.footer {
+    font-family: 'Georgia', serif;
+}
+
+.footer h1 {
+    padding: 5px 0 0 15px;
+}
+
+.footer .purple-button {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.footer-div {
+    padding-left: 15px;
+}
+
+.footer-div h3{
+    font-size: 1.4rem;
+    padding-top: 20px;
+}
+
+.footer-div h4{
+    font-size: 1rem;
+}
+
+.footer-div a {
+    font-size: 1rem;
+    color: black;
+    text-decoration: none; 
+}
+
+.footer p {
+    font-size: 0.75rem;
+    padding-left: 15px;
 }
 
 
@@ -328,8 +376,13 @@ body {
     .about-buttons-large {
         display: flex;
         justify-content: flex-end;
-        margin-right: 25px;
+        margin-right: 30px;
         font-weight: 500;
+        gap: 20px;
+    }
+
+    .about-section-button {
+        display: inline-block;
     }
 
     .about-section-button.resume {
