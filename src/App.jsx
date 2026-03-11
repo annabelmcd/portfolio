@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style.css';
-import { Routes, Route } from 'react-router';
+import { Routes, Route } from 'react-router-dom';
 import { AboutPage } from './AboutPage.jsx';
 import { WorkPage } from './WorkPage.jsx';
 import { PathwaysForward } from './PathwaysForward.jsx';
