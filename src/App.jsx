@@ -12,12 +12,12 @@ import { OtterWise } from './OtterWise.jsx';
 export function App (props) {
     return (
         <Routes>
-            <Route path='/portfolio' element={<AboutPage />} />
-            <Route path='/portfolio/work' element={<WorkPage />} />
-            <Route path='/portfolio/work/PathwaysForward' element={<PathwaysForward />} />
-            <Route path='/portfolio/work/ChoreSync' element={<ChoreSync />} />
-            <Route path='/portfolio/work/HuskyCommuter' element={<HuskyCommuter />} />
-            <Route path='/portfolio/work/OtterWise' element={<OtterWise />} />
+            <Route path='/' element={<AboutPage />} />
+            <Route path='/work' element={<WorkPage />} />
+            <Route path='/work/PathwaysForward' element={<PathwaysForward />} />
+            <Route path='/work/ChoreSync' element={<ChoreSync />} />
+            <Route path='/work/HuskyCommuter' element={<HuskyCommuter />} />
+            <Route path='/work/OtterWise' element={<OtterWise />} />
         </Routes>
     );
 }
