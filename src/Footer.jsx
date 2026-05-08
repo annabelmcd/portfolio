@@ -22,7 +22,8 @@ export function Footer(props) {
                 <h3>Connect</h3>
                 <a href="mailto:annamcd795@gmail.com">Email</a>
                 <div className="break"></div>
-                <a href="https://www.linkedin.com/in/annabel-mcdonald" target="_blank" rel="noopener noreferrer">LinkedIn</a>  
+                <a href="https://www.linkedin.com/in/annabel-mcdonald" target="_blank" rel="noopener noreferrer">LinkedIn</a> <br /> 
+                <a href="https://x.com/annabel_mcd" target="_blank" rel="noopener noreferrer">X (my creative outlet)</a> 
             </div>
             <hr />
             <p>&copy; Annabel McDonald. All Rights Reserved.</p>
