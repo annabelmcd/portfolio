@@ -39,6 +39,11 @@ body {
     padding: 0 20px;
     text-decoration: none;
     color: black;
+    transition: transform 0.25s ease;
+}
+
+.navbar .button:hover {
+    transform: translateY(-3px);
 }
 
 .about-section {
@@ -92,6 +97,12 @@ body {
     box-shadow: 0.75px 0.75px 1.5px rgba(0, 0, 0, 0.5);
     text-decoration: none;
     color: black;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.about-section-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
 }
 
 .break {
@@ -159,6 +170,21 @@ body {
     max-width: 250px;
     max-height: auto;
     border-radius: 5px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-card-small:hover img {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.project-card-lg img {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-card-lg:hover img {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
 }
 
 .project-card-small .tag {
@@ -244,6 +270,12 @@ body {
     border-radius: 10px;
     margin: 10px;
     text-decoration: none;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.purple-button:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 .Project-section img {
@@ -356,8 +388,7 @@ body {
     }
 
     .navbar .button:hover {
-        background-color: grey;
-        transform: translateY(-1px);
+        transform: translateY(-3px);
     }
 
     .navbar .button.about{
@@ -641,3 +672,73 @@ body {
     }
 
 }
+
+/* Page entrance animation */
+@keyframes fall-in {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.about-section > *,
+.work-section > *,
+.Project-section .main > * {
+    animation: fall-in 0.5s ease-out both;
+}
+
+.about-section > *:nth-child(1),
+.work-section > *:nth-child(1),
+.Project-section .main > *:nth-child(1) { animation-delay: 0.05s; }
+
+.about-section > *:nth-child(2),
+.work-section > *:nth-child(2),
+.Project-section .main > *:nth-child(2) { animation-delay: 0.12s; }
+
+.about-section > *:nth-child(3),
+.work-section > *:nth-child(3),
+.Project-section .main > *:nth-child(3) { animation-delay: 0.19s; }
+
+.about-section > *:nth-child(4),
+.work-section > *:nth-child(4),
+.Project-section .main > *:nth-child(4) { animation-delay: 0.26s; }
+
+.about-section > *:nth-child(5),
+.work-section > *:nth-child(5),
+.Project-section .main > *:nth-child(5) { animation-delay: 0.33s; }
+
+.about-section > *:nth-child(6),
+.work-section > *:nth-child(6),
+.Project-section .main > *:nth-child(6) { animation-delay: 0.40s; }
+
+.about-section > *:nth-child(7),
+.work-section > *:nth-child(7),
+.Project-section .main > *:nth-child(7) { animation-delay: 0.47s; }
+
+.about-section > *:nth-child(8),
+.work-section > *:nth-child(8),
+.Project-section .main > *:nth-child(8) { animation-delay: 0.54s; }
+
+.about-section > *:nth-child(9),
+.work-section > *:nth-child(9),
+.Project-section .main > *:nth-child(9) { animation-delay: 0.61s; }
+
+.about-section > *:nth-child(10),
+.work-section > *:nth-child(10),
+.Project-section .main > *:nth-child(10) { animation-delay: 0.68s; }
+
+.about-section > *:nth-child(11),
+.work-section > *:nth-child(11),
+.Project-section .main > *:nth-child(11) { animation-delay: 0.75s; }
+
+.about-section > *:nth-child(12),
+.work-section > *:nth-child(12),
+.Project-section .main > *:nth-child(12) { animation-delay: 0.82s; }
+
+.about-section > *:nth-child(13),
+.work-section > *:nth-child(13),
+.Project-section .main > *:nth-child(13) { animation-delay: 0.89s; }
