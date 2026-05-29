@@ -19,11 +19,17 @@ export function AboutPage(props){
                         <a href="https://drive.google.com/file/d/1Skbav1cC3q8n-a6vnV1q6V_PrHFZQPlp/view?usp=sharing" className="about-section-button" target="_blank" rel="noopener noreferrer">Resume</a>
                         <div className="break"></div>
                         <Link to="/work" className="about-section-button">Portfolio</Link>
-                        <div className="about-projects-banner about-projects-banner-mobile"></div>
+                        <div className="about-projects-banner about-projects-banner-mobile">more about me</div>
                         <Link to="/personal-projects" className="project-card-small">
                             <h3>Personal Projects</h3>
                             <div className="break"></div>
                             <img src="./img/inspired.png" alt="" />
+                        </Link>
+                        <div className="break"></div>
+                        <Link to="/organizations" className="project-card-small">
+                            <h3>Organizations</h3>
+                            <div className="break"></div>
+                            <img src="./img/organizations.png" alt="organizations" />
                         </Link>
                     </div>
                     <div className="about-buttons-large">
@@ -32,12 +38,19 @@ export function AboutPage(props){
                     </div>
                 </div>
             </div>
-            <div className="about-projects-banner"></div>
-            <Link to="/personal-projects" className="project-card-lg">
-                <img src="./img/inspired.png" alt="Personal Projects" />
-                <div className="break"></div>
-                <h3>Personal Projects</h3>
-            </Link>
+            <div className="about-more-section">
+                <div className="about-projects-banner">more about me</div>
+                <Link to="/personal-projects" className="project-card-lg">
+                    <img src="./img/inspired.png" alt="Personal Projects" />
+                    <div className="break"></div>
+                    <h3>Personal Projects</h3>
+                </Link>
+                <Link to="/organizations" className="project-card-lg" style={{marginTop: '30px'}}>
+                    <img src="./img/organizations.png" alt="organizations" />
+                    <div className="break"></div>
+                    <h3>Organizations</h3>
+                </Link>
+            </div>
             <Footer />
         </div>
     );

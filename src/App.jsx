@@ -9,6 +9,7 @@ import { ChoreSync } from './ChoreSync.jsx';
 import { HuskyCommuter } from './HuskyCommuter.jsx';
 import { OtterWise } from './OtterWise.jsx';
 import { PersonalProjects } from './PersonalProjects.jsx';
+import { Organizations } from './Organizations.jsx';
 
 function ScrollToTop() {
     const { pathname } = useLocation();
@@ -28,6 +29,7 @@ export function App (props) {
                 <Route path='/work/HuskyCommuter' element={<HuskyCommuter />} />
                 <Route path='/work/OtterWise' element={<OtterWise />} />
                 <Route path='/personal-projects' element={<PersonalProjects />} />
+                <Route path='/organizations' element={<Organizations />} />
             </Routes>
         </>
     );

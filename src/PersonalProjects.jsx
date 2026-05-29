@@ -15,17 +15,18 @@ export function PersonalProjects(props) {
                     </p>
                 </div>
 
-                <div className="project-card-small">
+                <a href="https://x.com/annabel_mcd/status/2052794235569741891?s=20" target="_blank" rel="noopener noreferrer" className="project-card-small">
                     <h3>inspire(d)</h3>
                     <div className="break"></div>
                     <img src="./img/inspired.png" alt="inspire(d)" />
-                </div>
+                </a>
 
-                <div className="project-card-lg">
+                <a href="https://x.com/annabel_mcd/status/2052794235569741891?s=20" target="_blank" rel="noopener noreferrer" className="project-card-lg">
                     <img src="./img/inspired.png" alt="inspire(d)" />
                     <div className="break"></div>
                     <h3>inspire(d)</h3>
-                </div>
+                </a>
+
 
             </div>
 

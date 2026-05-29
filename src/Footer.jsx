@@ -26,6 +26,7 @@ export function Footer(props) {
                 <a href="https://x.com/annabel_mcd" target="_blank" rel="noopener noreferrer">X (my creative outlet)</a> 
             </div>
             <hr />
+            <p>🚧  This website is currently under construction!  🚧</p>
             <p>&copy; Annabel McDonald. All Rights Reserved.</p>
             
         </div>
