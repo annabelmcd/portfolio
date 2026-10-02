@@ -13,24 +13,18 @@ export function AboutPage(props){
                 <img src="./img/profilepic.jpg" className="profilepic" />
                 <div className="about-blurb-column">
                     <div className="blurb-box">
-                        <p className="blurb-text">I&apos;m a third year Informatics student at the University of Washington interested in user experience design and information systems. I&apos;m especially focused on understanding users and working closely with teams to solve meaningful problems. I bring strong collaboration, leadership, and communication skills, along with a systems-thinking mindset that helps connect user needs to practical solutions. I&apos;m looking to continue developing my skills in a product role where I can learn from experienced teams and contribute to building impactful products.</p>
+                        <img src="./img/annabel-alive.png" className="blurb-corner-img blurb-corner-top-right" alt="" />
+                        <img src="./img/annabel-warm.png" className="blurb-corner-img blurb-corner-bottom-left" alt="" />
+                        <div className="blurb-text">
+                            <p className="blurb-greeting">Hello and Welcome!</p>
+                            <p className="blurb-fields">I&apos;m passionate about...<br />UX &nbsp;·&nbsp; HCI &nbsp;·&nbsp; Information Management<br />and intentional, people-focused products!</p>
+                            <p className="blurb-cta">Explore my page and <a href="mailto:annamcd795@gmail.com" className="blurb-reach-out">reach out</a> if you want to connect!</p>
+                        </div>
                     </div>
                     <div className="about-buttons-small">
                         <a href="https://drive.google.com/file/d/1Skbav1cC3q8n-a6vnV1q6V_PrHFZQPlp/view?usp=sharing" className="about-section-button" target="_blank" rel="noopener noreferrer">Resume</a>
                         <div className="break"></div>
                         <Link to="/work" className="about-section-button">Portfolio</Link>
-                        <div className="about-projects-banner about-projects-banner-mobile">more about me</div>
-                        <Link to="/personal-projects" className="project-card-small">
-                            <h3>Personal Projects</h3>
-                            <div className="break"></div>
-                            <img src="./img/inspired.png" alt="" />
-                        </Link>
-                        <div className="break"></div>
-                        <Link to="/organizations" className="project-card-small">
-                            <h3>Organizations</h3>
-                            <div className="break"></div>
-                            <img src="./img/organizations.png" alt="organizations" />
-                        </Link>
                     </div>
                     <div className="about-buttons-large">
                         <a href="https://drive.google.com/file/d/1Skbav1cC3q8n-a6vnV1q6V_PrHFZQPlp/view?usp=sharing" className="about-section-button" target="_blank" rel="noopener noreferrer">Resume</a>
@@ -38,21 +32,9 @@ export function AboutPage(props){
                     </div>
                 </div>
             </div>
-            <div className="about-more-section">
-                <div className="about-projects-banner">more about me</div>
-                <Link to="/personal-projects" className="project-card-lg">
-                    <img src="./img/inspired.png" alt="Personal Projects" />
-                    <div className="break"></div>
-                    <h3>Personal Projects</h3>
-                </Link>
-                <Link to="/organizations" className="project-card-lg" style={{marginTop: '30px'}}>
-                    <img src="./img/organizations.png" alt="organizations" />
-                    <div className="break"></div>
-                    <h3>Organizations</h3>
-                </Link>
-            </div>
             <Footer />
         </div>
     );
 
 }
+102

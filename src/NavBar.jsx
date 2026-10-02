@@ -11,6 +11,8 @@ export function NavBar(props) {
                 <Link to='/' className="button about">About</Link>
                 <div className="divider"> | </div>
                 <Link to='/work' className="button work">Work</Link>
+                <div className="divider"> | </div>
+                <Link to='/personal-projects' className="button">Play</Link>
             </div>
         </div>
     );

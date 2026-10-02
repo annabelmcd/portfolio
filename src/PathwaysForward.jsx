@@ -111,7 +111,7 @@ export function PathwaysForward(props) {
 
                     <div className="break"></div>
 
-                    <a href="https://www.figma.com/proto/h6PMtQKMOZ9j6sWBBZLshQ/nfagun-s-team-library?node-id=3375-15&starting-point-node-id=3375%3A15&t=ePbBVVe84YXgXOc7-1" className='purple-button'>Link to Interactive Prototype</a>
+                    <a href="https://www.figma.com/proto/h6PMtQKMOZ9j6sWBBZLshQ/nfagun-s-team-library?node-id=3375-15&starting-point-node-id=3375%3A15&t=ePbBVVe84YXgXOc7-1" className='purple-button' target="_blank" rel="noopener noreferrer">Link to Interactive Prototype</a>
                     <Link to='/work' className='purple-button'>Back to Projects</Link>
 
                 </div>

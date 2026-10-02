@@ -9,6 +9,7 @@ import { ChoreSync } from './ChoreSync.jsx';
 import { HuskyCommuter } from './HuskyCommuter.jsx';
 import { OtterWise } from './OtterWise.jsx';
 import { PersonalProjects } from './PersonalProjects.jsx';
+import { FashionForwardDashboard } from './FashionForwardDashboard.jsx';
 import { Organizations } from './Organizations.jsx';
 
 function ScrollToTop() {
@@ -24,6 +25,7 @@ export function App (props) {
             <Routes>
                 <Route path='/' element={<AboutPage />} />
                 <Route path='/work' element={<WorkPage />} />
+                <Route path='/work/FashionForwardDashboard' element={<FashionForwardDashboard />} />
                 <Route path='/work/PathwaysForward' element={<PathwaysForward />} />
                 <Route path='/work/ChoreSync' element={<ChoreSync />} />
                 <Route path='/work/HuskyCommuter' element={<HuskyCommuter />} />

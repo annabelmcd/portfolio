@@ -11,7 +11,9 @@ export function Footer(props) {
                 <h3>Navigate</h3>
                 <Link to='/' className="footer-mini">About</Link>
                 <br />
-                <Link to='/work' className="footer-mini">Work</Link>  
+                <Link to='/work' className="footer-mini">Work</Link>
+                <br />
+                <Link to='/personal-projects' className="footer-mini">Play</Link>
                 <br />
                 <a href="https://drive.google.com/file/d/1Skbav1cC3q8n-a6vnV1q6V_PrHFZQPlp/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="footer-mini">Resume</a>
                 <br />

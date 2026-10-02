@@ -68,7 +68,7 @@ export function OtterWise(props) {
 
                     <div className="break"></div>
 
-                    <a href="https://www.figma.com/proto/DlSxiyRu5dmIXstcCpat1A/OtterWise?node-id=152-562&starting-point-node-id=5%3A805&t=CJxtemmNnUS6eVVk-1" className='purple-button'>Link to Prototype</a>
+                    <a href="https://www.figma.com/proto/DlSxiyRu5dmIXstcCpat1A/OtterWise?node-id=152-562&starting-point-node-id=5%3A805&t=CJxtemmNnUS6eVVk-1" className='purple-button' target="_blank" rel="noopener noreferrer">Link to Prototype</a>
 
                     <div className="break"></div>
 

@@ -29,7 +29,7 @@ body {
     justify-content: center;
     background-color: #f0e3f8;
     border-radius: 8px;
-    width: 200px;
+    width: fit-content;
     padding: 3px;
     border: black solid 1px;
     box-shadow: 0.75px 0.75px 1.5px rgba(0, 0, 0, 0.5);
@@ -65,12 +65,55 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.blurb-corner-img {
+    position: absolute;
+    max-height: 50px;
+    z-index: 1;
+}
+
+.blurb-corner-top-right {
+    top: 5px;
+    right: 5px;
+}
+
+.blurb-corner-bottom-left {
+    bottom: 5px;
+    left: 5px;
 }
 
 .about-section .blurb-text {
-   padding: 20px;
-   margin: 20px;
-   font-family: 'Georgia', serif;
+    padding: 55px;
+    font-family: 'Georgia', serif;
+    text-align: center;
+}
+
+.blurb-greeting {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.blurb-fields {
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    margin-bottom: 18px;
+    color: #6b4f8a;
+}
+
+.blurb-cta {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 0;
+}
+
+.blurb-reach-out {
+    font-weight: 600;
+    color: #6b4f8a;
+    text-decoration: none;
 }
 
 .about-buttons-small {
@@ -250,6 +293,18 @@ body {
     background-color: #E2ECE9;
 }
 
+.tag.solving {
+    background-color: #D6EAF8;
+}
+
+.tag.management {
+    background-color: #F4A989;
+}
+
+.tag.infosystems {
+    background-color: #D5F5E3;
+}
+
 .Project-section .block {
     background-color: white;
     margin: 10px;
@@ -412,7 +467,8 @@ body {
         transform: translateY(-3px);
     }
 
-    .navbar .button.about{
+    .navbar .button.about,
+    .navbar .button.work {
         margin-right: 15px;
     }
 
@@ -434,6 +490,26 @@ body {
         height: fit-content;
         margin: 25px 0;
         border-radius: 8px;
+    }
+
+    .about-section .blurb-text {
+        text-align: left;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .blurb-corner-img {
+        max-height: 80px;
+    }
+
+    .blurb-corner-top-right {
+        top: -35px;
+        right: -20px;
+    }
+
+    .blurb-corner-bottom-left {
+        bottom: -35px;
+        left: -20px;
     }
 
     .about-buttons-small {
@@ -569,7 +645,7 @@ body {
     }
 
     .navbar .buttons {
-        margin-right: 55px;
+        margin-right: 15px;
     }
 
     .navbar .button {
@@ -579,11 +655,13 @@ body {
     }
 
     .about-section {
-       align-items: flex-start;
+        align-items: flex-start;
+        padding-top: 25px;
     }
 
     .profilepic {
         max-height: 300px;
+        margin-top: 0;
     }
 
     .about-blurb-column {
@@ -594,6 +672,7 @@ body {
         width: 100%;
         height: 300px;
         border-radius: 5px;
+        margin-top: 0;
     }
 
     .about-buttons-large {
@@ -669,7 +748,7 @@ body {
     }
 
     .navbar .buttons {
-        margin-right: 80px;
+        margin-right: 15px;
     }
 
     .navbar .button {
@@ -682,16 +761,29 @@ body {
     }
 
     .about-section .blurb-box {
-        height: 200px;
+        height: fit-content;
         width: 100%;
+        padding: 30px 0;
     }
 
     .about-section {
-        align-items: center;
+        align-items: flex-start;
     }
 
     .about-blurb-column {
         justify-content: center;
+    }
+
+    .blurb-greeting {
+        font-size: 2.8rem;
+    }
+
+    .blurb-fields {
+        font-size: 2.2rem;
+    }
+
+    .blurb-cta {
+        font-size: 1.6rem;
     }
 
     .about-buttons-large {

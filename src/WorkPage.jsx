@@ -13,9 +13,35 @@ export function WorkPage(props) {
                 <h2>Projects⁠</h2>
                 <div className="blurb-box">
                     <p className="blurb-text">
-                        Welcome to my portfolio! Here you'll find the projects I've done that I am most passionate about sharing. This is a place for me to highlight my <strong>process</strong> for each project and share the experiences and skills I've built along the way. You will find projects focused in <strong>User Research, Interface Design, Problem Solving, and Technical Implementation.</strong>
+                        Welcome to my portfolio! Here you'll find the projects I've done that I am most passionate about sharing. This is a place for me to highlight my <strong>process</strong> for each project and share the experiences and skills I've built along the way. You will find projects focused in <strong>User Research, Interface Design, Product Management, Problem Solving, and Technical Implementation.</strong>
                     </p>
                 </div>
+
+                <Link to='/work/FashionForwardDashboard' className="project-card-small">
+                    <h3>FashionForward Dashboard</h3>
+                    <div className="break"></div>
+                    <img src="./img/FashionForward.png" alt="FashionForward Dashboard" />
+                    <div className="break"></div>
+                    <h4 className="tag solving">Problem Solving</h4>
+                    <h4 className="tag management">Product Management</h4>
+                    <h4 className="tag infosystems">Information Systems</h4>
+                    <h4 className="tag wireframing">Wireframing</h4>
+                </Link>
+
+                <Link to='/work/FashionForwardDashboard' className="project-card-lg">
+                    <img src="./img/FashionForward.png" alt="FashionForward Dashboard" />
+                    <div className="break"></div>
+                    <h3>FashionForward Dashboard</h3>
+                    <div className="break"></div>
+                    <div className="tags">
+                        <h4 className="tag solving">Problem Solving</h4>
+                        <h4 className="tag management">Product Management</h4>
+                        <h4 className="tag infosystems">Information Systems</h4>
+                        <h4 className="tag wireframing">Wireframing</h4>
+                    </div>
+                </Link>
+
+                <div className="break"></div>
 
                 <Link to='/work/PathwaysForward' className="project-card-small">
                     <h3>Pathways Forward</h3>
