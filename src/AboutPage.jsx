@@ -22,7 +22,7 @@ export function AboutPage(props){
                         </div>
                     </div>
                     <div className="about-buttons-small">
-                        <a href="https://drive.google.com/file/d/1Skbav1cC3q8n-a6vnV1q6V_PrHFZQPlp/view?usp=sharing" className="about-section-button" target="_blank" rel="noopener noreferrer">Resume</a>
+                        <a href="https://drive.google.com/file/d/1Sy4zxioQvheKM9L0c2TXbj0Tp0JjNSI5/view?usp=sharing" className="about-section-button" target="_blank" rel="noopener noreferrer">Resume</a>
                         <div className="break"></div>
                         <Link to="/work" className="about-section-button">Portfolio</Link>
                     </div>

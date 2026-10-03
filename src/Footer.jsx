@@ -15,7 +15,7 @@ export function Footer(props) {
                 <br />
                 <Link to='/personal-projects' className="footer-mini">Play</Link>
                 <br />
-                <a href="https://drive.google.com/file/d/1Skbav1cC3q8n-a6vnV1q6V_PrHFZQPlp/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="footer-mini">Resume</a>
+                <a href="https://drive.google.com/file/d/1Sy4zxioQvheKM9L0c2TXbj0Tp0JjNSI5/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="footer-mini">Resume</a>
                 <br />
                 <br />
                 <a href="https://github.com/annabelmcd/portfolio" target="_blank" rel="noopener noreferrer" className="source-code">Website Source Code</a>
